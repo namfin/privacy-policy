@@ -589,6 +589,12 @@ body {
   font-size: 15px;
 }
 
+.hero-text p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .hero-text h1 {
   margin: 5px 0 0;
   font-size: 35.2px;
@@ -977,3 +983,4 @@ body {
     gap: 10px;
   }
 }
+
