@@ -753,176 +753,180 @@ body {
   text-overflow: ellipsis;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .have-question h3 {
     font-size: 1.1rem !important;
   }
+}
 
-  .have-question .icon {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
+.have-question .icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
 
-  .have-question .icon p {
-    margin-bottom: 0;
-    padding-right: 8px;
-    font-weight: 500;
-  }
+.have-question .icon p {
+  margin-bottom: 0;
+  padding-right: 8px;
+  font-weight: 500;
+}
 
-  /* Social icons */
-  .social-media {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 0.7rem;
-  }
+/* Social icons */
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.7rem;
+}
 
-  .social-media li a {
-    background-color: #fff;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
-  }
+.social-media li a {
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
 
-  .social-media li a:hover {
-    background-color: #3a3490;
-  }
+.social-media li a:hover {
+  background-color: #3a3490;
+}
 
-  .social-media li a i {
-    color: #3a3490;
-    font-size: 14px;
-  }
+.social-media li a i {
+  color: #3a3490;
+  font-size: 14px;
+}
 
-  .social-media li a:hover i {
-    color: #fff;
-  }
+.social-media li a:hover i {
+  color: #fff;
+}
 
-  /* Buttons */
+/* Buttons */
 
-  .fa-facebook-f:before {
-    content: "\f39e";
-  }
+.fa-facebook-f:before {
+  content: "\f39e";
+}
 
-  .button.btn-white {
-    background: linear-gradient(180deg, #fff, #fff);
-    color: #000;
-    font-weight: 300;
-    padding: 5px 12px;
-    line-height: 25px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    border-radius: 7px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
-    font-size: 14px;
-    letter-spacing: 0.8px;
-  }
+.button.btn-white {
+  background: linear-gradient(180deg, #fff, #fff);
+  color: #000;
+  font-weight: 300;
+  padding: 5px 12px;
+  line-height: 25px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
 
-  .button.btn-white:hover {
-    background: linear-gradient(0deg, #fffee1, #dfdfdf);
-  }
+.button.btn-white:hover {
+  background: linear-gradient(0deg, #fffee1, #dfdfdf);
+}
 
-  .button.btn-white i {
-    font-size: 14px;
-  }
+.button.btn-white i {
+  font-size: 14px;
+}
 
-  .footer-area {
-    background: linear-gradient(180deg, #252680, #544daf);
-    padding: 100px 0 0 0 !important;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-  }
+.footer-area {
+  background: linear-gradient(180deg, #252680, #544daf);
+  padding: 100px 0 0 0 !important;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
 
-  .footer-area h6 {
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #fff;
-  }
+.footer-area h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
 
-  .footer-navigation ul,
-  .footer-contact {
-    padding-left: 0;
-    list-style: none;
-  }
+.footer-navigation ul,
+.footer-contact {
+  padding-left: 0;
+  list-style: none;
+}
 
-  .footer-navigation li,
-  .footer-contact li {
-    margin-bottom: 8px;
-  }
+.footer-navigation li,
+.footer-contact li {
+  margin-bottom: 8px;
+}
 
-  .footer-navigation a,
-  .footer-contact a {
-    color: #b9b6e3;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
+.footer-navigation a,
+.footer-contact a {
+  color: #b9b6e3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
 
-  .footer-navigation a:hover,
-  .footer-contact a:hover {
-    color: #ec2029;
-    text-decoration: none;
-  }
+.footer-navigation a:hover,
+.footer-contact a:hover {
+  color: #ec2029;
+  text-decoration: none;
+}
 
-  .footer-contact .great-place-panel {
-    flex-basis: auto;
-    width: 130%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: end;
-    padding: 10px;
-    gap: 8px;
-  }
-  .great-place-panel img {
-    width: 80px;
-    margin-right: 8px !important;
-    object-fit: contain;
-  }
+.footer-contact .great-place-panel {
+  flex-basis: auto;
+  width: 130%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  padding: 10px;
+  gap: 8px;
+}
+.great-place-panel img {
+  width: 80px;
+  margin-right: 8px !important;
+  object-fit: contain;
+}
 
-  .great-place-panel img:last-child {
-    margin-right: 0 !important;
-  }
+.great-place-panel img:last-child {
+  margin-right: 0 !important;
+}
 
-  .footer-copyright {
-    border-top: 1px solid #b9b6e3;
-    color: #b9b6e3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    font-size: 15px;
-    margin-top: 20px;
-    padding: 15px 0 8px 0;
-  }
+.footer-copyright {
+  border-top: 1px solid #b9b6e3;
+  color: #b9b6e3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 15px 0 8px 0;
+}
 
-  .footer-copyright ul {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
+.footer-copyright ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-  .footer-copyright ul li a {
-    text-decoration: none;
-    color: #e2e0ee;
-  }
+.footer-copyright ul li a {
+  text-decoration: none;
+  color: #e2e0ee;
+}
 
-  .footer-copyright ul li a:hover {
-    color: #ec2029;
-  }
+.footer-copyright ul li a:hover {
+  color: #ec2029;
+}
+
+/* 📱 Responsive: Mobile View */
+@media (max-width: 768px) {
   .have-question {
     width: 95%;
     padding: 15px;
